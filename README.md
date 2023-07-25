@@ -72,7 +72,7 @@ python run_fastmri.py --eval --results_dir ./results/fastmri_trial1 --beta_start
 ```
 ## Trained Models
 
-Will be available soon.
+Trained model weights for both datasets can be downloaded from this link: https://drive.google.com/drive/folders/1ApxzBWqyD7Km0vAm-pILCyN6nvlsfjSg?usp=drive_link
 
 ## Citation 
 
