@@ -290,7 +290,7 @@ def DiffModel(
             return t
         
     def block(x,  dlatents,  att_vars, idx=0): 
-        # upsampling + convolution + cross attention transformer
+        # convolution + cross attention transformer
         att_maps = []
 
         x = conv2d_layer(x, dim = 128, kernel = 7)
@@ -323,7 +323,6 @@ def DiffModel(
     att_vars = {"centroid_assignments": None}
 
     x = noisy_sample
-    # main layers
     idx = 0
     resolution = 8
     x, dlatents, _att_maps, att_vars, idx = block(x, dlatents,  att_vars = att_vars, idx=idx)
