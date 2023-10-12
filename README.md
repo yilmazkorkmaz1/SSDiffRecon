@@ -46,9 +46,6 @@ Tfrecords files created for fastMRI and IXI datasets can be downloaded from the 
 
 https://drive.google.com/drive/folders/1h1kt8b4JgPOG-tNtRxAeEfMLUMIEzw9r?usp=drive_link
 
-
-**More detailed guideline is coming soon for dataset preparation.**
-
 Coil-sensitivity-maps are estimated using ESPIRIT (http://people.eecs.berkeley.edu/~mlustig/Software.html). 
 
 ## Run Commands
